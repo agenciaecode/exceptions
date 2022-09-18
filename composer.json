@@ -1,0 +1,29 @@
+{
+  "name": "mkioschi/exceptions",
+  "description": "Common exceptions for clean code PHP projects.",
+  "homepage": "https://github.com/mkioschi/exceptions",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mayko Kioschi",
+      "email": "mkioschi@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "mkioschi/enums": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mkioschi\\Exceptions\\": "src/Exceptions/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\": "tests/"
+    }
+  }
+}
