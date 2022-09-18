@@ -18,8 +18,8 @@
         </include>
     </coverage>
     <testsuites>
-        <testsuite name="Value Objects Test Suite">
-            <directory>./tests/ValueObjects/</directory>
+        <testsuite name="Test Suite">
+            <directory>./tests/</directory>
         </testsuite>
     </testsuites>
     <php>

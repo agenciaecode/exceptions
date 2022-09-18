@@ -18,12 +18,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Mkioschi\\Exceptions\\": "src/Exceptions/"
+      "Mkioschi\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Test\\": "tests/"
+      "Mkioschi\\Tests\\": "tests/"
     }
   }
 }
