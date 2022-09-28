@@ -5,7 +5,7 @@ namespace Mkioschi\Exceptions\Http;
 use Mkioschi\Enums\HttpStatus;
 use Throwable;
 
-class InvalidValueHttpException extends HttpException
+class InvalidTypeHttpException extends HttpException
 {
     /**
      * @param string $message
