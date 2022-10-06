@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Mkioschi\Exceptions\Http;
+namespace Ecode\Exceptions\Http;
 
 use Exception;
-use Mkioschi\Enums\HttpStatus;
+use Ecode\Enums\HttpStatus;
 use Throwable;
 
 class HttpException extends Exception
