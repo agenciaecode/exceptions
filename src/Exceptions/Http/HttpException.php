@@ -21,7 +21,7 @@ class HttpException extends Exception
         string $message,
         HttpStatus $statusCode = HttpStatus::INTERNAL_SERVER_ERROR,
         ?int $code = null,
-        Throwable $previous = null
+        ?Throwable $previous = null
     )
     {
         $this->statusCode = $statusCode;

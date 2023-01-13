@@ -14,8 +14,8 @@ class OrdinaryHttpException extends HttpException
      */
     public function __construct(
         string $message = 'An error occurred.',
-        int $code = null,
-        Throwable $previous = null
+        ?int $code = null,
+        ?Throwable $previous = null
     )
     {
         parent::__construct(
