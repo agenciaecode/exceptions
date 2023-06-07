@@ -4,24 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "21b2e2bd51065c4d1678f8daf15548b5",
+    "content-hash": "20cc4251cd7043be9996027f75326190",
     "packages": [
         {
             "name": "agenciaecode/enums",
-            "version": "v1.0.0",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/agenciaecode/enums.git",
-                "reference": "d5a7cc6293ee3704696f010b9b6686ec43391133"
+                "reference": "1afbc7b733642ea73126e96fbc5aa3f0b42ff95b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/agenciaecode/enums/zipball/d5a7cc6293ee3704696f010b9b6686ec43391133",
-                "reference": "d5a7cc6293ee3704696f010b9b6686ec43391133",
+                "url": "https://api.github.com/repos/agenciaecode/enums/zipball/1afbc7b733642ea73126e96fbc5aa3f0b42ff95b",
+                "reference": "1afbc7b733642ea73126e96fbc5aa3f0b42ff95b",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.1"
+                "php": ">=8.2"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.5"
@@ -46,9 +46,9 @@
             "homepage": "https://github.com/agenciaecode/enums",
             "support": {
                 "issues": "https://github.com/agenciaecode/enums/issues",
-                "source": "https://github.com/agenciaecode/enums/tree/v1.0.0"
+                "source": "https://github.com/agenciaecode/enums/tree/v1.0.3"
             },
-            "time": "2022-10-06T15:44:06+00:00"
+            "time": "2023-06-07T20:33:38+00:00"
         }
     ],
     "packages-dev": [
@@ -1789,7 +1789,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=8.1"
+        "php": ">=8.2"
     },
     "platform-dev": [],
     "plugin-api-version": "2.2.0"
